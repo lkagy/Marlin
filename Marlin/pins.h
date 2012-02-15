@@ -1,49 +1,6 @@
 #ifndef PINS_H
 #define PINS_H
 
-#if MOTHERBOARD == 99
-#define	KNOWN_BOARD 1
-
-#define X_STEP_PIN          2
-#define X_DIR_PIN           3
-#define X_ENABLE_PIN        -1
-#define X_MIN_PIN           -1
-#define X_MAX_PIN           16
-
-#define Y_STEP_PIN          5
-#define Y_DIR_PIN           6
-#define Y_ENABLE_PIN       -1
-#define Y_MIN_PIN           67
-#define Y_MAX_PIN          -1
-
-#define Z_STEP_PIN          62
-#define Z_DIR_PIN           63
-#define Z_ENABLE_PIN       -1
-#define Z_MIN_PIN           59
-#define Z_MAX_PIN          -1
-
-#define E0_STEP_PIN         65
-#define E0_DIR_PIN          66
-#define E0_ENABLE_PIN      -1
-
-#define SDPOWER            -1
-#define SDSS               53
-#define LED_PIN            -1
-#define FAN_PIN            -1
-#define PS_ON_PIN           9
-#define KILL_PIN           -1
-
-#define HEATER_0_PIN        13
-#define HEATER_1_PIN       -1
-#define HEATER_2_PIN       -1
-#define TEMP_0_PIN          6   // MUST USE ANALOG INPUT NUMBERING NOT DIGITAL OUTPUT NUMBERING!!!!!!!!!
-#define TEMP_1_PIN         -1   // MUST USE ANALOG INPUT NUMBERING NOT DIGITAL OUTPUT NUMBERING!!!!!!!!!
-#define TEMP_2_PIN         -1   // MUST USE ANALOG INPUT NUMBERING NOT DIGITAL OUTPUT NUMBERING!!!!!!!!!
-#define HEATER_BED_PIN      4
-#define TEMP_BED_PIN       10
-
-#endif /* 99 */
-
 /****************************************************************************************
 * Arduino pin assignment
 *
@@ -235,7 +192,7 @@
 #define SD_CARD_SELECT   4
 
 //our RS485 pins
-#define TX_ENABLE_PIN	12
+#define TX_ENABLE_PIN 12
 #define RX_ENABLE_PIN	13
 
 //pin for controlling the PSU.
@@ -282,20 +239,20 @@
 #define X_STEP_PIN         54
 #define X_DIR_PIN          55
 #define X_ENABLE_PIN       38
-#define X_MIN_PIN           3
-#define X_MAX_PIN           2   //2 //Max endstops default to disabled "-1", set to commented value to enable.
+#define X_MIN_PIN           -1 //3
+#define X_MAX_PIN           -1 //2 //Max endstops default to disabled "-1", set to commented value to enable.
 
 #define Y_STEP_PIN         60
 #define Y_DIR_PIN          61
 #define Y_ENABLE_PIN       56
-#define Y_MIN_PIN          14
-#define Y_MAX_PIN          15   //15
+#define Y_MIN_PIN          -1 //14
+#define Y_MAX_PIN          -1 //15
 
 #define Z_STEP_PIN         46
 #define Z_DIR_PIN          48
 #define Z_ENABLE_PIN       62
-#define Z_MIN_PIN          18
-#define Z_MAX_PIN          19   //19
+#define Z_MIN_PIN          -1 //18
+#define Z_MAX_PIN          -1 //19
 
 #define E0_STEP_PIN        26
 #define E0_DIR_PIN         28
