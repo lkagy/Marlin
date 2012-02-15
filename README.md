@@ -1,3 +1,6 @@
+NOTE:
+This is the latest version of Marlin, pre-configured for the MendelMax printer kits from http://store.mendelmax.com. 
+
 WARNING: 
 --------
 THIS IS RELEASE CANDIDATE 1 FOR MARLIN 1.0.0
